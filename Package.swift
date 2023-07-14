@@ -4,7 +4,6 @@ import PackageDescription
 
 let package = Package(
     name: "StorifyMeSnaps",
-    version: "1.0.9",
     platforms: [
         .iOS(.v11)
     ],
@@ -18,12 +17,12 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "StorifyMeSnaps",
-            url: "https://sdk.dev.storifyme.com/ios/1.0.9/StorifyMeSnaps.zip",
-            checksum: "35828ec9e3a501f4b3a9054722ac6ed641e979eb9214e553cbe86b8f8ca3bfef",
-            resources: [
-                .copy("StorifyMeSnaps.framework/EditorSDK")
-            ]
-        )
+            url: "https://sdk.dev.storifyme.com/ios/1.0.10/StorifyMeSnaps.zip",
+            checksum: "a04a8c18bc89981f1317681b8ca9fc2b1ef5d95dc29ed51808288d526c3800b2"
+        ),
+        resources: [
+            .copy("StorifyMeSnaps.framework/EditorSDK")
+        ]
     ],
     swiftLanguageVersions: [.v5]
 )
